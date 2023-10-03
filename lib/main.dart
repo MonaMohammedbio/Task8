@@ -22,21 +22,25 @@ class MydiamondApp extends StatelessWidget {
               ],
             ),
             SizedBox(height: 120.0),
-            TextField(
-              decoration:  InputDecoration(
+            Container(color: Colors.cyan,
+              child: TextField(
+                decoration:  InputDecoration(
 
-                labelText: 'Username',
+                  labelText: 'Username'
+                ),
               ),
             ),
  SizedBox(height: 12.0),
 // [Password]
-            TextField(
-              decoration:  InputDecoration(
+            Container(color: Colors.cyan,
+              child: TextField(
+                decoration:  InputDecoration(
 
-                labelText: 'Password',
+                  labelText: 'Password',
+                ),
+
+
               ),
-
-
             ),
             Container(
               child: TextButton(
